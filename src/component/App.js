@@ -11,7 +11,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      coffeeTypes: JSON.parse(localStorage.getItem("coffeeTypes")) || data,
+      coffeeTypes: data,
       chosenCoffeeType: JSON.parse(localStorage.getItem("chosenCoffeeType")) || "Cappuccino"
     };
 

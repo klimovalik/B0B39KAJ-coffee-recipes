@@ -1,4 +1,5 @@
 import './Cup.css';
+import React from "react";
 
 // function Cup() {
 //   return (
@@ -13,7 +14,19 @@ import './Cup.css';
 //   );
 // }
 
-function Cup() {
+function Cup(props) {
+  const cupFor = props.cupFor;
+
+  // "#86563a" coffee
+  // "#faebd7" milk
+  // "#fdf5e6" milk foam
+  // "#fffaf0" wh.cream
+
+  let coffeeColors = [];
+  cupFor.colors.forEach((color) => {
+    coffeeColors.push(<stop offset={color.offset} stopColor={color.stopColor} stopOpacity="100%"/>)
+  });
+
   return (
       <div className="cupContainer">
         <svg viewBox="0 0 200 200">
@@ -25,11 +38,14 @@ function Cup() {
                     transform="rotate(-180 100 100)"
                     fill="#ffffff"/>
             </mask>
+            <linearGradient id="solids" x1="0%" y1="0%" x2="0%" y2="100%">
+              {coffeeColors}
+            </linearGradient>
           </defs>
 
           <path d="M 55 75 l 10 100 a 6,6 0 0 0 6,6 h 48 a 6,6 0 0 0 6,-6 l 10 -100"
                 mask="url(#coffee-mask)"
-                fill="#86563a"
+                fill="url(#solids)"
                 id="coffee"
           />
 
