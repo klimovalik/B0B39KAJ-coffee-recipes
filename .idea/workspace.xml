@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd200d27-d679-430f-8fb3-bc25a599f4db" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/service-worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serviceWorkerRegistration.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/coffeeTypes.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/coffeeTypes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/cup/Cup.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/cup/Cup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/cup/Cup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/cup/Cup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +61,7 @@
       <recent name="C:\Users\podav\Desktop\cvut\kaj\semestral-work\src\component\cup" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\podav\Desktop\cvut\kaj\semestral-work\src" />
       <recent name="C:\Users\podav\Desktop\cvut\kaj\semestral-work\src\component\menu" />
       <recent name="C:\Users\podav\Desktop\cvut\kaj\semestral-work\src\component" />
       <recent name="C:\Users\podav\Desktop\cvut\kaj\semestral-work\prototype" />
@@ -106,7 +108,7 @@
       <workItem from="1683803568871" duration="1921000" />
       <workItem from="1684143513166" duration="8000" />
       <workItem from="1684586619977" duration="16057000" />
-      <workItem from="1684666745048" duration="2137000" />
+      <workItem from="1684666745048" duration="4071000" />
     </task>
     <servers />
   </component>
