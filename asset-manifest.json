@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/B0B39KAJ-coffee-recipes/static/css/main.3c04cd3a.css",
-    "main.js": "/B0B39KAJ-coffee-recipes/static/js/main.63202712.js",
+    "main.js": "/B0B39KAJ-coffee-recipes/static/js/main.0399f0ef.js",
+    "service-worker.js": "/B0B39KAJ-coffee-recipes/service-worker.js",
     "static/media/background.png": "/B0B39KAJ-coffee-recipes/static/media/background.3410d411db2552759b07.png",
     "index.html": "/B0B39KAJ-coffee-recipes/index.html",
     "main.3c04cd3a.css.map": "/B0B39KAJ-coffee-recipes/static/css/main.3c04cd3a.css.map",
-    "main.63202712.js.map": "/B0B39KAJ-coffee-recipes/static/js/main.63202712.js.map"
+    "main.0399f0ef.js.map": "/B0B39KAJ-coffee-recipes/static/js/main.0399f0ef.js.map"
   },
   "entrypoints": [
     "static/css/main.3c04cd3a.css",
-    "static/js/main.63202712.js"
+    "static/js/main.0399f0ef.js"
   ]
 }
