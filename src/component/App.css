@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
     font: 20px "Century Gothic", Futura, sans-serif;
+    scrollbar-color: #000001 transparent;
+    scrollbar-width: thin;
+    scroll-padding: 5px;
 }
 
 *:focus {

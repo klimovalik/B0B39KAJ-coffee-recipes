@@ -85,10 +85,12 @@
 
 .heartFillIcon {
     color: #de4f4f;
+    fill: #de4f4f;
 }
 
 .heartAddFillIcon {
     color: #f3e6d4;
+    fill: #f3e6d4;
 }
 
 .coffeeTable {
@@ -98,6 +100,8 @@
     align-content: flex-start;
     flex-wrap: wrap;
     overflow-y: scroll;
+    scrollbar-color: #5e7d67 transparent;
+    scrollbar-width: thin;
 }
 
 .coffeeTable::-webkit-scrollbar-thumb {
@@ -119,6 +123,7 @@
     height: 130px;
     border-radius: 10px;
     color: #f3e6d4;
+    fill: #f3e6d4;
     text-decoration: inherit;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     background: #ac6949;
