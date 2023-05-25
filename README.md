@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Coffee Recipes App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Author:** Valeriia Klimova
 
-## Available Scripts
+This documentation provides an overview of the website project hosted at https://klimovalik.github.io/B0B39KAJ-coffee-recipes/. It outlines the purpose, main features, technologies used, and instructions for usage.
 
-In the project directory, you can run:
+## 1. Project overview
 
-### `npm start`
+This website project is a comprehensive platform for coffee enthusiasts. It offers a collection of coffee recipes, brewing techniques, and resources to help users create their perfect cup of coffee at home.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The website's main goal is to provide a user-friendly interface where coffee lovers can explore, discover, and contribute to a wide range of coffee recipes. Whether users are looking for classic espresso-based beverages, innovative specialty coffee recipes, or brewing techniques for various coffee methods, the website caters to all tastes and preferences.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 2. Fulfilled requirements
 
-### `npm test`
+**2.1. HTML requirements**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [X] The HTML page is valid, as verified on [this site](https://validator.w3.org/), and works in the latest versions of Chrome, Firefox, Edge and Opera browsers.
+- [X] To depict complex graphic elements and their animation was used SVG.
+- [X] Audio is used to sound the buttons for selecting the type of coffee and adding to favorites.
+- [X] Form element is used to find the types of coffee.
 
-### `npm run build`
+**2.1. CSS requirements**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [X] Ppseudoclasses and pseudo-elements were used.
+- [X] Transformation is used to change the size of buttons when pressing.
+- [X] Animation used to create steam over a mug of coffee.
+- [X] Media queries are used to create a responsive design.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**2.1. JavaScript requirements**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [X] The JavaScript-library React was used for implementation, which implies an object-oriented approach.
+- [X] Of the advanced API, the LocalStorage and the History API were used.
+- [X] The application can work offline with Service Workers.
 
-### `npm run eject`
+## 3. User interface
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**3.1. Left Section**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The left side of the website features a block with search functionality and coffee buttons. This block allows users to search for specific coffee recipes by entering keywords. The coffee buttons provide quick access to different coffee recipes available on the website.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**3.2. Middle Section**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The middle section of the website displays the name of the chosen coffee and an animation showcasing the preparation process of the selected coffee. The animation provides visual guidance and engages users by illustrating the layers of the coffee.
+Beside the animation, a legend is provided to explain the various layers of the coffee. This legend serves to enhance users' understanding of the coffee's composition.
 
-## Learn More
+**3.3. Right Section**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The right side of the website contains two main components: the list of ingredients required and the step-by-step recipe for the chosen coffee. The ingredient list outlines all the necessary items needed to make the coffee. The step-by-step recipe provides detailed instructions on how to prepare the coffee, guiding users through each stage of the process. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 4. Feautures
 
-### Code Splitting
+**4.1. Search Functionality**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The website offers a search feature that allows users to find specific recipes by entering keywords. This feature enables users to quickly locate recipes based on their preferences.
 
-### Analyzing the Bundle Size
+**4.2. Like Function**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Users can engage with the website by liking their favorite recipes. The like function provides a way for users to keep track of their preferred recipes.
 
-### Making a Progressive Web App
+**4.3. Show Liked Recipes Function
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The website provides a feature that allows users to view all the recipes they have liked in one place. This functionality provides convenience for users to access their favorite recipes without having to search for them individually.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![coffee-app](https://github.com/klimovalik/B0B39KAJ-coffee-recipes/assets/101264264/9fad95e6-b86a-401a-8072-03e9f2bef3af)
