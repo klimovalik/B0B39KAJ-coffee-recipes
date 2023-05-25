@@ -6,12 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="fd200d27-d679-430f-8fb3-bc25a599f4db" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/coffeeTypes.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/coffeeTypes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/cup/Cup.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/cup/Cup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/cup/Cup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/cup/Cup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/menu/Menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/menu/Menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/recipe/Recipe.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/recipe/Recipe.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/menu/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/menu/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/recipe/Recipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/recipe/Recipe.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,34 +38,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/podav/Desktop/cvut/kaj/semestral-work/src/component/menu&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.JavaScript&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/podav/Desktop/cvut/kaj/semestral-work/public",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.JavaScript",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\podav\Desktop\cvut\kaj\semestral-work\public" />
       <recent name="C:\Users\podav\Desktop\cvut\kaj\semestral-work\src\component\menu" />
       <recent name="C:\Users\podav\Desktop\cvut\kaj\semestral-work\src\component\cup" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\podav\Desktop\cvut\kaj\semestral-work\public\favicon.ico" />
+      <recent name="C:\Users\podav\Desktop\cvut\kaj\semestral-work\favicon.ico" />
       <recent name="C:\Users\podav\Desktop\cvut\kaj\semestral-work\src\component" />
       <recent name="C:\Users\podav\Desktop\cvut\kaj\semestral-work\src" />
       <recent name="C:\Users\podav\Desktop\cvut\kaj\semestral-work\src\component\menu" />
-      <recent name="C:\Users\podav\Desktop\cvut\kaj\semestral-work\prototype" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -110,7 +112,9 @@
       <workItem from="1684143513166" duration="8000" />
       <workItem from="1684586619977" duration="16057000" />
       <workItem from="1684666745048" duration="15394000" />
-      <workItem from="1684858558852" duration="12596000" />
+      <workItem from="1684858558852" duration="13264000" />
+      <workItem from="1685005952660" duration="2832000" />
+      <workItem from="1685017962852" duration="1060000" />
     </task>
     <servers />
   </component>

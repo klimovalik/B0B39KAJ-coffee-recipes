@@ -2,9 +2,11 @@ import './Cup.css';
 import React from "react";
 
 function ColorsLegend(props) {
+  // gets a list of colors in a picture with an animation of filling a coffee mug
   const coffeeColorsSet = new Set(props.cupFor.colors
       .map((color) => color.stopColor));
 
+  // generates descriptions of color values in a picture with an animation of filling a coffee mug
   let coffeeColors = []
   coffeeColorsSet.forEach((color) => {
     let ingredient = "";
@@ -42,7 +44,6 @@ function ColorsLegend(props) {
     const colorStyle = {
       backgroundColor: color
     };
-
     coffeeColors.push(<span key={color} style={colorStyle}>{ingredient}</span>)
   });
 
@@ -56,6 +57,7 @@ function ColorsLegend(props) {
 function Cup(props) {
   const cupFor = props.cupFor;
 
+  // gets a list of colors to create layers in the coffee mug filling animation
   let coffeeColors = [];
   cupFor.colors.forEach((color, index) => {
     coffeeColors.push(<stop key={index} offset={color.offset} stopColor={color.stopColor} stopOpacity="100%"/>)
@@ -70,6 +72,7 @@ function Cup(props) {
         </div>
         <svg viewBox="0 0 175 175">
           <defs>
+            {/* contains an animation of filling a coffee mug */}
             <mask id="coffee-mask">
               <rect className="mask-rect"
                     x="50" y="0"
@@ -81,17 +84,20 @@ function Cup(props) {
                                   dur="7s" repeatCount="indefinite" />
               </rect>
             </mask>
+            {/* contains the color filling of the coffee mug */}
             <linearGradient id="solids" x1="0%" y1="0%" x2="0%" y2="100%">
               {coffeeColors}
             </linearGradient>
           </defs>
 
+          {/* the inside of the coffee mug */}
           <path d="M 48 50 l 10 100 a 6,6 0 0 0 6,6 h 48 a 6,6 0 0 0 6,-6 l 10 -100"
                 mask="url(#coffee-mask)"
                 fill="url(#solids)"
                 id="coffee"
           />
 
+          {/* the outside of the coffee mug */}
           <path d="M 43 45 l 10 110 a 7,7 0 0 0 7,7 h 56 a 7,7 0 0 0 7,-7 l 10 -110"
                 fill="transparent"
                 stroke="black"
@@ -101,12 +107,14 @@ function Cup(props) {
                 id="cup"
           />
 
+          {/* bottom part of the lid for the coffee mug */}
           <rect x="36" y="25" rx="7" ry="7" width="104" height="20"
                 fill="transparent"
                 stroke="black"
                 strokeWidth="3"
           />
 
+          {/* top part of the lid for the coffee mug */}
           <path d="M 47 25 l 7 -15 a 7,7 0 0 1 6,-4 h 56 a 7,7 0 0 1 6,4 l 7 15"
                 fill="transparent"
                 stroke="black"
@@ -114,7 +122,6 @@ function Cup(props) {
                 strokeLinejoin="round"
                 strokeLinecap="round"
           />
-
         </svg>
       </div>
   );

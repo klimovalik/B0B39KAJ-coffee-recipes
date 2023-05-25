@@ -7,6 +7,7 @@ import ArchiveLineIcon from "remixicon-react/ArchiveLineIcon";
 import ShoppingBasketLineIcon from "remixicon-react/ShoppingBasketLineIcon";
 
 function Ingredient(props) {
+  // creates icons for ingredients
   let ingredientIcon;
   switch (props.name) {
     case "coffee beans":
@@ -33,6 +34,7 @@ function Ingredient(props) {
 function Recipe(props) {
   const recipeFor = props.recipeFor;
 
+  // creates an array with ingredients for making coffee
   const ingredients = [];
   recipeFor.ingredients.forEach((ingredient) => {
     ingredients.push(<Ingredient
@@ -42,6 +44,7 @@ function Recipe(props) {
     />)
   });
 
+  // creates an array with elements containing the steps of coffee making
   const steps = [];
   recipeFor.recipe.forEach((step, index) => {
     steps.push(<li key={index}>{step}</li>)

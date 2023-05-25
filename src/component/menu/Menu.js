@@ -18,9 +18,11 @@ class CoffeeButton extends React.Component {
     e.preventDefault();
     e.stopPropagation();
 
+    // plays the sound of a button press
     let audio = new Audio("https://www.fesliyanstudios.com/play-mp3/4");
     audio.play();
 
+    // sends the name of the coffee added to favorites
     if (!e.currentTarget.classList.contains("favoritesButton")) return;
     this.props.onFavoritesChange(
         e.currentTarget.parentElement.querySelector('label').innerText);
@@ -29,23 +31,28 @@ class CoffeeButton extends React.Component {
   handleChosenCoffeeTypeChange(e) {
     e.preventDefault();
 
+    // plays the sound of a button press
     let audio = new Audio("https://www.fesliyanstudios.com/play-mp3/10");
     audio.play();
 
     if (!e.currentTarget.classList.contains("coffeeButton")) return;
     if (e.target.classList.contains("favoritesButton")) return;
 
+    // saves the selected coffee type to history
     window.history.pushState(null, null, e.currentTarget.href);
-    // console.log(e.currentTarget.querySelector('label').innerText)
+
+    // sends a new page URL for the chosen coffee type
     this.props.onChosenCoffeeTypeChange(
         new URL(e.currentTarget.href).searchParams.get('coffee'));
   }
 
   render() {
+    // picks up the icon depending on whether the coffee type has been added to favorites
     const heartIcon = this.props.coffee.liked ?
         <HeartFillIcon className="heartFillIcon" /> :
         <HeartAddFillIcon className="heartAddFillIcon" />;
 
+    // the page parameter containing the selected type of coffee
     const href = "?coffee=" + this.props.coffee.name;
 
     return (
@@ -85,11 +92,13 @@ class CoffeeTable extends React.Component {
   }
 
   render() {
+    // coffee list display filters
     const filterText = this.props.filterText;
     const likedOnly = this.props.likedOnly;
 
     const coffeeButtons = [];
 
+    // creates an array with buttons for different types of coffee
     this.props.coffeeTypes.forEach((coffeeType) => {
       if (coffeeType.name.toLowerCase().indexOf(filterText.toLowerCase()) === -1) return;
       if (likedOnly && !coffeeType.liked) return;
@@ -161,6 +170,8 @@ class SearchBar extends React.Component {
 class Menu extends React.Component {
   constructor(props) {
     super(props);
+
+    // contains the state of the filters to display the coffee list
     this.state = {
       filterText: '',
       likedOnly: false
@@ -174,18 +185,21 @@ class Menu extends React.Component {
   }
 
   handleFilterTextChange(filterText) {
+    // sets a new filter text
     this.setState({
       filterText: filterText
     });
   }
 
   handleShowAllChange() {
+    // sets a show all filter status
     this.setState({
       likedOnly: false
     })
   }
 
   handleShowLikedChange() {
+    // sets a new liked only filter status
     this.setState({
       likedOnly: true
     })
